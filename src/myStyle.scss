@@ -1,16 +1,9 @@
 body {
-  background-color: skyblue;
   color: black;
+  text-align: center;
 }
 
-.app {
-  width: 450px;
-  margin: 0 auto;
-  padding-top: 50px;
-
-  & .app-header {
-    height: 250px;
-    width: inherit;
-    object-fit: cover;
-  }
+.appHeader {
+  height: 200px;
+  width: 200px;
 }
