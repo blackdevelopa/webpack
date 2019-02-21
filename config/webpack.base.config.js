@@ -6,7 +6,7 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 
-const APP_DIR = path.resolve(__dirname, '../src');
+const APP_DIR = path.resolve(__dirname, '../src/app.js');
 module.exports = env => {
   const { PLATFORM, VERSION } = env;
   return merge([
