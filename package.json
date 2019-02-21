@@ -4,7 +4,7 @@
   "description": "setting up webpack 4 with babel 7",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack-dev-server --mode development --config config/webpack.base.config.js --open --hot --history-api-fallback"
   },
   "repository": {
     "type": "git",
